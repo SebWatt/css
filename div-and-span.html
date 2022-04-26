@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divs and Spans CSS</title>
+    <style>
+      body {
+        background-color: #fbfbfe;
+        color: #395a1e;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      p {
+        font-size: 24px;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        padding: 5px;
+        margin: 4px;
+        font-size: 20px;
+      }
+      div {
+          background-color: ghostwhite;
+          height: 140px;
+          width: auto;
+      }
+      .styled-by-id {
+        font-family: Georgia, Cambria, serif;
+        font-weight: bold;
+      }
+      .nav-link {
+        padding: 5px;
+        margin: 4px;
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+        background-color: #eeffee;
+        color: darkgreen;
+      }
+      .nav-link li {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Divs and Spans</h1>
+      <nav>
+        <ul>
+          <a href="index.html" class="nav-link"><li>Inline CSS</li></a>
+          <a href="internal-css.html" class="nav-link"><li>Internal CSS</li></a>
+          <a href="external-css.html" class="nav-link"><li>External CSS</li></a>
+          <a href="testing-cascading.html" class="nav-link"><li>Testing Cascading CSS</li></a>
+          <a href="classes-and-ids.html" class="nav-link"><li>Classes and IDs</li></a>
+          <a href="div-and-span.html" class="nav-link"><li>Divs and Spans</li></a>
+
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <p>This paragraph will show the effect of giving an element an ID and styling that ID</p>
+        <div>
+            <p id="styled-by-id">This paragraph will show the effect of giving an element an ID and <span style="background-color: lavender; font-weight: bold;">styling</span> that ID</p>
+        </div>
+      </p>
+    </main>
+  </body>
+</html>
