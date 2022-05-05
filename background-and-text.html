@@ -9,17 +9,25 @@
       * {
         font-size: 20px;
       }
+      body {
+        background-color: ghostwhite;
+        color: #000067;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
       h2 {
         text-align: center;
         font-size: 48px;
       }
       ul {
+        margin-left: 0%;
         list-style: none;
       }
       li {
-        padding: 5px;
-        margin: 4px;
-        font-size: 20px;
+        padding: 3px;
+        font-size: 18px;
       }
       nav a {
         padding: 5px;
@@ -31,8 +39,8 @@
         color: darkgreen;
       }
       .nav-link {
-        padding: 5px;
-        margin: 4px;
+        padding: 3px;
+        margin: 3px;
         border: 2px;
         border-color: black;
         border-style: solid;
@@ -50,9 +58,24 @@
       nav a:visited {
         color: purple;
       }
+      div {
+        background-color: #5ac88b;
+        padding: 5px;
+        border: 3px black solid;
+        margin-bottom: 5px;
+      }
+      img {
+        width: 400px;
+        height: 400px;
+        display: block;
+        padding: 50px;
+        background-color: palegreen;
+        float: right;
+        border: 5px black solid;
+      }
     </style>
   </head>
-  <body style="background-color: ghostwhite; color: #000067">
+  <body>
     <nav>
       <ul>
         <a href="index.html" class="nav-link"><li>Inline CSS</li></a>
@@ -73,7 +96,7 @@
     </nav>
     <main>
       <h2>Backgrounds and Text</h2>
-      <div style="background-color: #5ac88b">
+      <div>
         <p>School-appropiate-filler-text</p>
         <p>School-appropiate-filler-text</p>
         <p>School-appropiate-filler-text</p>
@@ -91,6 +114,10 @@
         <p>School-appropiate-filler-text</p>
         <p>School-appropiate-filler-text</p>
       </div>
+      <img
+        src="Images/CSS is awesome.jpg"
+        alt="A meme with text saying css is awesome with a box surrounding 50% of the text"
+      />
     </main>
   </body>
 </html>
